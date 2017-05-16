@@ -1,0 +1,4 @@
+#Mon May 15 18:28:33 PDT 2017
+base.0=C\:\\Users\\archie\\Documents\\murach\\android\\ex_starts\\ch08_ex3_TipCalculator\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\archie\\Documents\\murach\\android\\ex_starts\\ch08_ex3_TipCalculator\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

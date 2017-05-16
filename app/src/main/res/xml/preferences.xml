@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:defaultValue="@string/rounding_default"
+        android:dialogTitle="@string/rounding_title"
+        android:entries="@array/rounding_keys"
+        android:entryValues="@array/rounding_values"
+        android:key="pref_rounding"
+        android:summary="@string/rounding_summary"
+        android:title="@string/rounding_title" />
+    <CheckBoxPreference
+        android:key="pref_remember_percent"
+        android:title="@string/remember_percent_title"
+        android:summary="@string/remember_percent_summary"
+        android:defaultValue="true" />
+    <EditTextPreference
+        android:key="pref_name"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="Name to display with calculation."
+        android:title="Name" />
+</PreferenceScreen>
