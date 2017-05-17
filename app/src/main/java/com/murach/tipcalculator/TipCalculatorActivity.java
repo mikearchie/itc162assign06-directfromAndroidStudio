@@ -81,7 +81,8 @@ implements OnEditorActionListener, OnClickListener {
     
     @Override
     public void onPause() {
-        // save the instance variables       
+        // save the instance variables
+        //new comment test
         Editor editor = prefs.edit();        
         editor.putString("billAmountString", billAmountString);
         editor.putFloat("tipPercent", tipPercent);
